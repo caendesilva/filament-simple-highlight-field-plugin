@@ -1,9 +1,9 @@
 # desilva/filament-simple-highlight-field
 
-## Adds a simple read-only Highlight.js pseudo-field to FilamentPHP
-
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/desilva/filament-simple-highlight-field.svg?style=flat-square)](https://packagist.org/packages/desilva/filament-simple-highlight-field)
 [![Total Downloads](https://img.shields.io/packagist/dt/desilva/filament-simple-highlight-field.svg?style=flat-square)](https://packagist.org/packages/desilva/filament-simple-highlight-field)
+
+## Adds a simple read-only Highlight.js pseudo-field to FilamentPHP
 
 Adds a simple form field that renders a read-only Highlight.js code block for FilamentPHP. The plugin is new and may be unstable and contain bugs. PRs and issue reports are welcome.
 
