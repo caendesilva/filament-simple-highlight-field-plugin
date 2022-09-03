@@ -29,7 +29,7 @@ class FileResource extends Resource
         return $form
             ->schema([
                 HighlightField::make('contents')
-					->columnSpan('full'),
+                    ->columnSpan('full'),
             ]);
     }
 }
