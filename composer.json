@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "desilva/filament-simple-highlight-field",
+    "description": "Adds a simple read-only Highlight.js pseudo-field to FilamentPHP",
     "keywords": [
-        ":vendor_name",
+        "desilva",
         "laravel",
-        ":package_slug"
+        "filament-simple-highlight-field"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/desilva/filament-simple-highlight-field",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Caen De Silva",
+            "email": "caen@desilva.se",
             "role": "Developer"
         }
     ],
@@ -23,25 +23,20 @@
     "require-dev": {
         "laravel/pint": "^1.0",
         "nunomaduro/collision": "^6.0",
-        "nunomaduro/larastan": "^2.0.1",
         "orchestra/testbench": "^7.0",
         "pestphp/pest": "^1.21",
         "pestphp/pest-plugin-laravel": "^1.1",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5",
-        "spatie/laravel-ray": "^1.26"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Desilva\\FilamentSimpleHighlightField\\": "src",
+            "Desilva\\FilamentSimpleHighlightField\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Desilva\\FilamentSimpleHighlightField\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Desilva\\FilamentSimpleHighlightField\\FilamentSimpleHighlightFieldServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentSimpleHighlightField": "Desilva\\FilamentSimpleHighlightField\\Facades\\FilamentSimpleHighlightField"
             }
         }
     },

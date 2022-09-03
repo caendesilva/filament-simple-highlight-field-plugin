@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Desilva\FilamentSimpleHighlightField\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentSimpleHighlightFieldCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-simple-highlight-field';
 
     public $description = 'My command';
 
