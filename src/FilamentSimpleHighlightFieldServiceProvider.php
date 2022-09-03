@@ -9,8 +9,7 @@ class FilamentSimpleHighlightFieldServiceProvider extends PluginServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package
-            ->name('filament-simple-highlight-field')
+        $package->name('filament-simple-highlight-field')
             ->hasConfigFile()
             ->hasViews();
     }
