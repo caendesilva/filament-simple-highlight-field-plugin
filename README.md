@@ -28,10 +28,8 @@ class FileResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('path'),
-
                 HighlightField::make('contents')
-                    ->columnSpan('full'),
+					->columnSpan('full'),
             ]);
     }
 }
