@@ -20,6 +20,10 @@
 </x-dynamic-component>
 
 @once
+    @if(config('filament-simple-highlight-field.theme'))
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/{{ config('filament-simple-highlight-field.theme') }}.min.css">
+    @endif
+
     @push('scripts')
         <script type="text/javascript">
             window.addEventListener('DOMContentLoaded', function() {

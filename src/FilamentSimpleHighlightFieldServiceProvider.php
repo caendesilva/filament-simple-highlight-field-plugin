@@ -20,5 +20,9 @@ class FilamentSimpleHighlightFieldServiceProvider extends PluginServiceProvider
         $package->name('filament-simple-highlight-field')
             ->hasConfigFile()
             ->hasViews();
+
+        if (config('filament-simple-highlight-field.theme')) {
+            $this->styles = [];
+        }
     }
 }
