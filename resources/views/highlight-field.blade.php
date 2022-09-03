@@ -20,14 +20,7 @@
 </x-dynamic-component>
 
 @once
-    @if(config('forms.dark_mode'))
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/dark.min.css">
-    @else
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
-    @endif
-
     @push('scripts')
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
         <script type="text/javascript">
             hljs.highlightAll();
         </script>
