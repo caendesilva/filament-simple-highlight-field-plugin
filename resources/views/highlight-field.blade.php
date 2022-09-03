@@ -22,7 +22,7 @@
 @once
     @push('scripts')
         <script type="text/javascript">
-            window.addEventListener('load', function() {
+            window.addEventListener('DOMContentLoaded', function() {
                 hljs.highlightAll();
             });
         </script>
