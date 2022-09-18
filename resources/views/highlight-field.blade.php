@@ -19,16 +19,18 @@
     >{{ $getState() }}</code></pre>
 </x-dynamic-component>
 
-@once
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/{{ config('filament-simple-highlight-field.theme', 'default') }}.min.css">
+@if(\Desilva\FilamentSimpleHighlightField\HighlightField::canHighlight($getState()))
+    @once
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/{{ config('filament-simple-highlight-field.theme', 'default') }}.min.css">
 
-    @push('scripts')
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
+        @push('scripts')
+            <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
 
-        <script type="text/javascript">
-            window.addEventListener('DOMContentLoaded', function() {
-                hljs.highlightAll();
-            });
-        </script>
-    @endpush
-@endonce
+            <script type="text/javascript">
+                window.addEventListener('DOMContentLoaded', function() {
+                    hljs.highlightAll();
+                });
+            </script>
+        @endpush
+    @endonce
+@endif
