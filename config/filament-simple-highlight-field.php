@@ -15,4 +15,19 @@ return [
 
     // 'theme' => 'nord',
 
+    /*
+    |-----------------------------------------------------------------------------
+    | Should minified files be highlighted?
+    |-----------------------------------------------------------------------------
+    |
+    | To save on the client's resources, files with a very long line length, ie
+    | files that are likely to be minified, are not highlighted by default.
+    | You can change this behaviour here, and you can also change the
+    | threshold for what is considered to be a "very long" line.
+    |
+    */
+
+    'disable_highlighting_for_compact_files' => true,
+    'compact_file_line_threshold' => 256,
+
 ];
