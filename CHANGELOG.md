@@ -2,6 +2,14 @@
 
 All notable changes to `filament-simple-highlight-field` will be documented in this file.
 
+## v1.3.0 - 2023-05-03
+
+### What's Changed
+
+- Update package requirements to include Laravel 10 by @caendesilva in https://github.com/caendesilva/filament-simple-highlight-field-plugin/pull/3
+
+**Full Changelog**: https://github.com/caendesilva/filament-simple-highlight-field-plugin/compare/v1.2.0...v1.3.0
+
 ## v1.2.0 - 2022-09-18
 
 ### What's Changed
