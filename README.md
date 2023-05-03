@@ -15,6 +15,8 @@ You can install the package via composer:
 composer require desilva/filament-simple-highlight-field
 ```
 
+This package supports Laravel 9 and Laravel 10.
+
 ## Usage
 
 Simply use the component as you'd use any other Filament field. It's especially perfect for the resource view page where it blends right in.
